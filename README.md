@@ -25,12 +25,17 @@ Dataset Link: https://www.kaggle.com/datasets/vuppalaadithyasairam/ultrasound-br
 
 ## Data Preprocessing
 The following preprocessing steps were applied:
+
   -Image resizing to 224 × 224
+  
   -Pixel normalization (rescale 1/255)
+  
   -Data augmentation:
+  
     -Random rotation
     -Zoom
     -Horizontal flip
+    
   -Binary label encoding
 
 ## Evaluation Metrics
