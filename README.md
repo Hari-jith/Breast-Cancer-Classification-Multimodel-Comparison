@@ -2,9 +2,11 @@
 Deep learning based breast cancer classification using ultrasound images
 
 
-# Breast Cancer Classification using Deep Learning
+## Project Overview
 
-This project implements a multi-model deep learning framework for breast cancer classification using ultrasound images.
+Breast cancer is one of the most prevalent cancers among women worldwide. Early and accurate diagnosis significantly improves treatment outcomes. This project presents a deep learning-based approach for classifying breast ultrasound images into benign and malignant categories using multiple pre-trained Convolutional Neural Network (CNN) architectures.
+
+A comparative analysis is performed on four state-of-the-art models to identify the most reliable architecture for this task.
 
 ## Models Used
 - VGG19
@@ -20,7 +22,12 @@ DenseNet121 achieved the best overall performance:
 
 ## Dataset
 Ultrasound Breast Cancer Dataset (Kaggle)
+
 Dataset Link: https://www.kaggle.com/datasets/vuppalaadithyasairam/ultrasound-breast-images-for-breast-cancer/data
+
+### Sample Images of Dataset
+
+<img width="774" height="405" alt="sample data" src="https://github.com/user-attachments/assets/bb222dbd-f19d-4974-88d7-452a5ec30eaf" />
 
 ## Evaluation Metrics
 - Accuracy
