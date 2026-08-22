@@ -51,7 +51,7 @@ All generated plots (Training Curves, Confusion Matrices, ROC Curves, and Model 
 - `results/EfficientNetB0_*`
 - `results/InceptionV3_*`
 
-![Model Comparison](results/performance_comparison.png)
+![Model Comparison](results/Performance_Comparison.png)
 
 ## 🏆 Final Selection: DenseNet121
 While InceptionV3 achieved the highest AUC and Precision, **DenseNet121** was selected as the final model due to its superior **F1-Score (0.8521)** and **Recall (0.8500)**. 
@@ -59,7 +59,7 @@ In medical diagnostics, minimizing false negatives (missed Malignant cases) is c
 
 Below is a sample of random predictions using the final DenseNet121 model:
 
-![Random Predictions](results/densenet_random_predictions.png)
+![Random Predictions](results/random_predictions.png)
 
 ## 🛡️ Requirements
 To run this project, install the following dependencies:
